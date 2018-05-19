@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
 
 p {
-    color: red;
+    background-color: lightcoral;
+    border: 1px solid red;
     font-weight: bolder;
-    font-style: 'Roboto Condensed', sans-serif
+    font-style: 'Roboto Condensed', sans-serif;
+    padding: 20px;
 }
