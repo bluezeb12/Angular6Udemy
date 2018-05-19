@@ -8,4 +8,6 @@
   class="form-control"
   [(ngModel)]="username">
 <p>{{username}}</p>
-<button class="btn btn-primary" [disabled]="this.username === ''" (click)="doUpdateUsername()">Update Username</button>
+<button class="btn btn-primary" 
+  [disabled]="this.username === ''" 
+  (click)="doResetUsername()">Reset Username</button>
